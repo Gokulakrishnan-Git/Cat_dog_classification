@@ -122,15 +122,9 @@ This project is deployed using **Hugging Face Spaces** with Gradio.
 👉 Live App:
 https://huggingface.co/spaces/GOKULAKRISHNAN7/cat-dog-classifier
 
----
 
-## 🔮 Future Improvements
 
-* 🔹 Add data augmentation
-* 🔹 Improve accuracy with pretrained models (ResNet, EfficientNet)
-* 🔹 Add FastAPI backend for production API
-* 🔹 Enable GPU inference
-* 🔹 Add batch image prediction
+
 
 ---
 
@@ -152,6 +146,7 @@ Feel free to fork this repository and improve the model or UI.
 ## 📬 Contact
 
 If you have any suggestions or feedback, feel free to connect!
+
 
 ---
 
