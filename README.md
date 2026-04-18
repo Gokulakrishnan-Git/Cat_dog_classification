@@ -1,38 +1,45 @@
-# 🐱🐶 Cat-Dog Image Classification (Deep Learning + Gradio)
+# 🐱🐶 Cat-Dog Image Classification (Deep Learning + Deployment)
 
-## 🚀 Overview
+## 🚀 Live Demo
+
+👉 **Try the app here:**
+🔗 https://huggingface.co/spaces/GOKULAKRISHNAN7/cat-dog-classifier
+
+---
+
+## 📌 Overview
 
 This project is a deep learning-based image classification system that predicts whether an input image is a **cat or a dog**.
 
-The model is built using a **custom Convolutional Neural Network (CNN)** implemented in PyTorch and deployed using an interactive **Gradio web interface**.
+The model is built using a **custom Convolutional Neural Network (CNN)** implemented in PyTorch and deployed as an interactive web application using **Gradio on Hugging Face Spaces**.
 
 ---
 
 ## 🎯 Features
 
-* ✅ Custom-built CNN architecture (not pretrained)
-* ✅ Image preprocessing pipeline
-* ✅ Confidence score output for predictions
-* ✅ Interactive UI using Gradio
-* ✅ Lightweight and fast inference
+* ✅ Custom CNN architecture (built from scratch)
+* ✅ Real-time image classification
+* ✅ Confidence score output
+* ✅ Interactive UI with Gradio
+* ✅ Fully deployed (accessible via browser)
 
 ---
 
 ## 🧠 Model Architecture
 
-The model is a deep CNN with the following characteristics:
+The model is a deep CNN with the following structure:
 
-* Multiple convolutional layers
-* ReLU activation
+* Convolutional layers
+* ReLU activations
 * MaxPooling layers
 * Dropout for regularization
-* Fully connected output layer (binary classification)
+* Fully connected layer (binary classification)
 
 ---
 
 ## 📂 Project Structure
 
-```
+```bash
 ├── app.py                  # Gradio app for inference
 ├── model.py               # CNN architecture
 ├── best_model.pth         # Trained model weights
@@ -44,7 +51,7 @@ The model is a deep CNN with the following characteristics:
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation (Run Locally)
 
 Clone the repository:
 
@@ -67,7 +74,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-After running, open the local Gradio link in your browser.
+Then open the Gradio link in your browser.
 
 ---
 
@@ -82,26 +89,24 @@ After running, open the local Gradio link in your browser.
 ## 📊 Example Output
 
 ```
-Prediction: Dog  
+Prediction: Cat  
 Confidence:  
-Dog: 0.92  
-Cat: 0.08
+Cat: 0.87  
+Dog: 0.13
 ```
 
 ---
 
 ## 🧪 Training Details
 
-* Input image size: 64x64 (grayscale)
+* Input size: 64 × 64 (grayscale)
 * Loss Function: CrossEntropyLoss
 * Optimizer: Adam
-* Hyperparameters tuned manually
+* Custom hyperparameter tuning
 
 ---
 
 ## 📦 Requirements
-
-See `requirements.txt`:
 
 * torch
 * torchvision
@@ -110,35 +115,44 @@ See `requirements.txt`:
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Deployment
 
-* 🔹 Deploy on Hugging Face Spaces
-* 🔹 Add GPU support
-* 🔹 Improve accuracy with data augmentation
-* 🔹 Use pretrained models (ResNet, EfficientNet)
-* 🔹 Add REST API (FastAPI version)
+This project is deployed using **Hugging Face Spaces** with Gradio.
+
+👉 Live App:
+https://huggingface.co/spaces/GOKULAKRISHNAN7/cat-dog-classifier
 
 ---
 
-## 💡 Learnings
+## 🔮 Future Improvements
+
+* 🔹 Add data augmentation
+* 🔹 Improve accuracy with pretrained models (ResNet, EfficientNet)
+* 🔹 Add FastAPI backend for production API
+* 🔹 Enable GPU inference
+* 🔹 Add batch image prediction
+
+---
+
+## 💡 Key Learnings
 
 * Building CNN from scratch
-* Model training and evaluation
-* Converting research code into a deployable app
-* Creating interactive ML applications
+* Model training & evaluation
+* Converting ML models into deployable apps
+* Using Hugging Face Spaces for deployment
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to fork this repo and improve the model or UI.
+Feel free to fork this repository and improve the model or UI.
 
 ---
 
 ## 📬 Contact
 
-If you have any questions or suggestions, feel free to reach out!
+If you have any suggestions or feedback, feel free to connect!
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+⭐ If you found this project useful, consider giving it a star!
