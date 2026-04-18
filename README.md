@@ -145,7 +145,7 @@ Feel free to fork this repository and improve the model or UI.
 
 ## 📬 Contact
 
-If you have any suggestions or feedback, feel free to connect!
+If you have any suggestions or feedback, feel free to connect! gokulakrishnan6008@gmail.com
 
 
 ---
